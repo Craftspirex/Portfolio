@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="shortcut icon"
+      href="./assest/4e029ed82a674605acca476b42462fbf-fotor-ai-art-effects-20250216160929.jpeg"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  </head>
+
+  <body class="light-mode">
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress">
+      <div class="scroll-progress-bar"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="logo">Portfolio</div>
+      <div
+        class="nav-toggle"
+        id="navToggle"
+        aria-label="Toggle navigation menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button
+        id="themeToggle"
+        class="theme-toggle"
+        aria-label="Toggle dark mode"
+      >
+        <i class="fas fa-moon"></i>
+      </button>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1 class="fade-in">Hi, I'm <span class="highlight">Rayan</span></h1>
+        <p class="subtitle fade-in">Front-End Developer</p>
+        <p class="description fade-in">
+          I design and build modern, user-friendly websites using HTML, CSS, and
+          JavaScript. My goal is to bring ideas to life with clean UI and
+          responsive design.
+        </p>
+        <a href="#projects" class="cta-button fade-in">View My Work</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section
+      id="about"
+      class="about"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="profile-image" data-aos="zoom-in" data-aos-delay="200">
+          <img
+            src="./assest/4e029ed82a674605acca476b42462fbf-fotor-ai-art-effects-20250216160929.jpeg"
+            alt="Profile Picture"
+            loading="lazy"
+          />
+        </div>
+        <div class="about-text" data-aos="fade-left" data-aos-delay="400">
+          <h3>Hi, I'm Rayan.</h3>
+          <div class="personal-details">
+            <p>
+              I'm a Grade 8 student at Dar-e-Arqam School and a passionate
+              Front-End Developer, Graphic Designer, and Shopify Learner.
+            </p>
+            <h3>Interests</h3>
+            <p>
+              I build modern, responsive websites using HTML, CSS, and
+              JavaScript. Along with coding, I also love designing posters and
+              social media content that grabs attention. Recently, I’ve also
+              started learning Shopify to explore the world of e-commerce and
+              dropshipping. I enjoy working on creative projects and improving
+              my skills every day. My goal is to grow as a creative developer
+              and designer, and build things that inspire and help others.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section
+      id="skills"
+      class="skills"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+          <i class="fab fa-html5"></i>
+          <h3>HTML5</h3>
+          <div class="progress-bar" data-progress="90">
+            <div class="progress"></div>
+          </div>
+        </div>
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
+          <i class="fab fa-css3-alt"></i>
+          <h3>CSS3</h3>
+          <div class="progress-bar" data-progress="85">
+            <div class="progress"></div>
+          </div>
+        </div>
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="600">
+          <i class="fab fa-js"></i>
+          <h3>JavaScript</h3>
+          <div class="progress-bar" data-progress="80">
+            <div class="progress"></div>
+          </div>
+        </div>
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="800">
+          <i class="fab fa-react"></i>
+          <h3>React</h3>
+          <div class="progress-bar" data-progress="75">
+            <div class="progress"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section
+      id="projects"
+      class="projects"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-image">
+            <img
+              src="./assest/2.PNG"
+              alt="Sundown Studio Website"
+              loading="lazy"
+            />
+            <div class="project-overlay">
+              <div class="project-links">
+                <a
+                  href="https://github.com/Craftspirex/Sundown-copy-website-.git"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="View project code"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a
+                  href="https://sundown-copy-website.vercel.app/"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="View live demo"
+                  ><i class="fas fa-external-link-alt"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <h3>Sundown Studio</h3>
+          <p>
+            A modern, responsive website clone of Sundown Studio featuring
+            smooth animations and interactive elements.
+          </p>
+        </div>
+        <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="project-image">
+            <img
+              src="./assest/Capture.PNG"
+              alt="Islamic Quiz App"
+              loading="lazy"
+            />
+            <div class="project-overlay">
+              <div class="project-links">
+                <a
+                  href="https://github.com/Craftspirex/Quize-competition.git"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="View project code"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a
+                  href="https://quize-competition.vercel.app/"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="View live demo"
+                  ><i class="fas fa-external-link-alt"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <h3>Islamic Quiz App</h3>
+          <p>
+            An interactive quiz application with multiple difficulty levels and
+            real-time scoring system.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section
+      id="contact"
+      class="contact"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
+      <h2 class="section-title">Contact Me</h2>
+      <form
+        id="contactForm"
+        class="contact-form"
+        data-aos="zoom-in"
+        data-aos-delay="200"
+      >
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="social-links">
+        <a href="#" target="_blank" aria-label="GitHub Profile"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="#" target="_blank" aria-label="LinkedIn Profile"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="#" target="_blank" aria-label="Instagram Profile"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+      <p>&copy; 2025 Rayan. All rights reserved.</p>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTop" class="scroll-top" aria-label="Scroll to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
