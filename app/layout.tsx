@@ -1,3 +1,4 @@
+
 import type { Metadata } from "next";
 import "./globals.css";
 
@@ -16,6 +17,9 @@ export const metadata: Metadata = {
     "Karachi",
     "ARVÉN",
   ],
+  verification: {
+    google: "izQtNE0ND8_OLzOAJ1OTupQ-QkpMh7cWjz4EFDinaig",
+  },
   openGraph: {
     title: "Rayan Zaib — Founder, Developer & AI Builder",
     description:
@@ -23,7 +27,6 @@ export const metadata: Metadata = {
     type: "website",
   },
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
